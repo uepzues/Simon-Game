@@ -19,6 +19,7 @@ if (!start) {
   });
 }
 
+
 function events() {
   $(".start").css("visibility", "hidden");
   restart();
@@ -28,6 +29,7 @@ function events() {
   }, 1000);
 }
 
+// pattern sequence
 function sequence() {
   userPattern = [];
   $(".levNum").text(level++);
@@ -46,6 +48,7 @@ function sequence() {
   }, 800);
 }
 
+// colors on click
 $(".console__colors").on("click", (event) => {
   let className = event.target.className.split(" ");
   let colorClass = className[2];
