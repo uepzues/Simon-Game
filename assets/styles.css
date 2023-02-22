@@ -138,6 +138,13 @@ main {
   font-size: 4rem;
   display: block;
 }
+.footer {
+  padding-top: 2em;
+}
+.footer a {
+  text-decoration-line: none;
+  text-shadow: 1px 2px #4cbe33;
+}
 
 /* anime */
 .pressed {
