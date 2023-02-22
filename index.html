@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+      rel="stylesheet" />
+    <!-- general styling -->
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="title">
+          <h1 class="title__heading">Simon Game</h1>
+        </div>
+        <div class="console">
+          <div class="console__set">
+            <div class="blank"></div>
+            <div type="button" id="green" class="console__colors W green">w</div>
+            <div class="blank"></div>
+            <div type="button" id="yellow"  class="console__colors A yellow">a</div>
+            <div class="level">
+              <span class="levWrap">
+                <span class="start">Press here to Start</span>
+                <span class="level-text">LV</span><span class="levNum">1</span>
+              </span>
+            </div>
+            <div type="button" id="red"  class="console__colors D red">d</div>
+            <div class="blank"></div>
+            <div type="button" id="blue"  class="console__colors S blue">s</div>
+            <div class="blank"></div>
+          </div>
+        </div>
+      </div>
+      <div class="alert">
+        <h2 class="alert__head">Incorrect!!</h2>
+        <p class="alert__text">Don't Give Up!!</p>
+        <button class="alert__btn quit">Quit</button>
+        <button class="alert__btn try">Try Again</button>
+      </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="assets/game.js"></script>
+  </body>
+</html>
