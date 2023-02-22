@@ -148,7 +148,8 @@ main {
 /* start button */
 .start {
   font-size: 1rem;
-  padding-top: 30px;
+  padding: 20px;
+  padding-top: 40px;
   text-align: center;
   position: absolute;
   line-height: 1.5em;
@@ -211,7 +212,7 @@ button {
   text-shadow: none;
   box-shadow: none;
 }
-.wave{
+.wave {
   text-align: center;
   font-size: 7rem;
 }
